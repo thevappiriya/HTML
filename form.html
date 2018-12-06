@@ -1,35 +1,122 @@
+<!DOCTYPE html>
 <html>
-<head>
-<title>Form</title>
-</head>
-<body bgcolor="lightblue">
-<h1 align="center"> uki Student</h1>
-<form>
-  <div align="center">
-  <fieldset>
-    <legend>Uki.Life</legend>
-First Name:
-&ensp; &emsp; <input type="text" name="firstname"><br><br>
-Last Name:
-&ensp; &emsp; <input type="text" name="lastname"><br><br>
-Reg No:
-&emsp; &emsp; &emsp; <input type="text" name="regname"><br><br>
-Date of Birth:
-&emsp; <input type="text" name="dateofbirth"><br><br>
-Gender:
-&emsp; &emsp; <input type="radio" name="gender" value="male">Male
-<input type="radio" name="gender" value="female">Female<br>
-Favourite Subjects:<br>
-<input type="checkbox" name="favouritesubjects" value="english">English
-<input type="checkbox" name="favouritesubjects" value="perasonalcoaching">Personal Coaching
-<input type="checkbox" name="favouritesubjects" value="webdevlopment">Web Development
-<input type="checkbox" name="favouritesubjects" value="programming">Programming<br>
-Feedback:<br>
-<textarea name="message" rows="10" cols="50"></textarea><br>
-&emsp; &emsp; &emsp; &emsp; <input type="reset" value="Reset">
-<input type="submit" value="Submit">
-</fieldset>
-</div>
-</form>
-</body>
+    <head>
+        <title>Creating HTML Form</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h2 align="center"><u>Uki Student</u></h2>
+        <a href="index.html" class="btn btn-home">Home</a>
+        <form>
+            <fieldset>
+                <legend>Uki Life</legend>
+                <div class="row">
+                    <div class="col-20"></div>
+                    <div class="col-20">
+                        <label for="firstname">First Name</label>
+                    </div>
+                    <div class="col-5">
+                        <span>:</span>
+                    </div>
+                    <div class="col-35">
+                        <input type="text" name="firstname" placeholder="type here">
+                    </div>
+                    <div class="col-20"></div>
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-20"></div>
+                    <div class="col-20">
+                        <label for="lastname">Last Name</label>
+                    </div>
+                    <div class="col-5">
+                        <span>:</span>
+                    </div>
+                    <div class="col-35">
+                        <input type="text" name="lastname" placeholder="type here">
+                    </div>
+                    <div class="col-20"></div>
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-20"></div>
+                    <div class="col-20">
+                        <label for="regno">Reg. No</label>
+                    </div>
+                    <div class="col-5">
+                        <span>:</span>
+                    </div>
+                    <div class="col-35">
+                        <input type="text" name="regno" placeholder="type here">
+                    </div>
+                    <div class="col-20"></div>
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-20"></div>
+                    <div class="col-20">
+                        <label for="dob">Date of Birth</label>
+                    </div>
+                    <div class="col-5">
+                        <span>:</span>
+                    </div>
+                    <div class="col-35">
+                        <input type="text" name="dob" placeholder="type here">
+                    </div>
+                    <div class="col-20"></div>
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-20"></div>
+                    <div class="col-20">
+                        <label for="gender">Gender</label>
+                    </div>
+                    <div class="col-5">
+                        <span>:</span>
+                    </div>
+                    <div class="col-35">
+                        <input type="radio" name="gender" value="male"> Male
+                        <input type="radio" name="gender" value="female"> Female
+                    </div>
+                    <div class="col-20"></div>
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-20"></div>
+                    <div class="col-20">
+                        <label for="subject">Favourite Subjects:</label>
+                    </div>
+                    <div class="col-5">
+                        <span>:</span>
+                    </div>
+                    <div class="col-55">
+                        <input type="checkbox" name="subject" value="english"> English
+                        <input type="checkbox" name="subject" value="personalcoaching"> Personal Coaching <br><br>
+                        <input type="checkbox" name="subject" value="business"> Business
+                        <input type="checkbox" name="subject" value="programming"> Programming
+                    </div>
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-20"></div>
+                    <div class="col-20">
+                        <label for="feedback">Feedback:</label>
+                    </div>
+                    <div class="col-5">
+                        <span>:</span>
+                    </div>
+                    <div class="col-35">
+                        <textarea name="feedback" rows="8" cols="40"></textarea>
+                    </div>
+                    <div class="col-20"></div>
+                </div>
+                <br><br><br><br><br><br><br><br><br><br>
+                <div class="row">
+                    <input type="submit" value="Reset">
+                    <input type="submit" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+    </body>
 </html>
+
