@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Exercise</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="container exercise-1">
+            <div class="dropdown">
+                <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+                    Button Dropdown Menu
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Home</a>
+                    <a class="dropdown-item" href="#">Bootstrap</a>
+                    <a class="dropdown-item" href="#">JQuery</a>
+                    <a class="dropdown-item" href="#">JQuery UI</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">PHP</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container exercise-2">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="input-group" id="adv-search">
+                        <input type="text" class="form-control" placeholder="search here..." />
+                        <div class="input-group-btn">
+                            <div class="btn-group" role="group">
+                                <div class="dropdown dropdown-lg">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                                    <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                        <a class="dropdown-item" href="#">Accessories</a>
+                                        <a class="dropdown-item" href="#">Jackets</a>
+                                        <a class="dropdown-item" href="#">Jeans</a>
+                                        <a class="dropdown-item" href="#">Shoes</a>
+                                        <a class="dropdown-item" href="#">Shirts</a>
+                                        <a class="dropdown-item" href="#">Watches</a>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container exercise-3">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Product ID</th>
+                        <th>Product Name</th>
+                        <th>Product Quality</th>
+                        <th>Product Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-info">
+                        <td>1</td>
+                        <td>Wheat</td>
+                        <td>Good</td>
+                        <td>200 Bags</td>
+                    </tr>      
+                    <tr class="table-danger">
+                        <td>2</td>
+                        <td>Rice</td>
+                        <td>Good</td>
+                        <td>250 Bags</td>
+                    </tr>
+                    <tr class="table-warning">
+                        <td>3</td>
+                        <td>Sugar</td>
+                        <td>Good</td>
+                        <td>200 Bags</td>
+                    </tr>
+                    <tr class="table-secondary">
+                        <td>4</td>
+                        <td>Sugar</td>
+                        <td>Good</td>
+                        <td>200 Bags</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>5</td>
+                        <td>Sugar</td>
+                        <td>Good</td>
+                        <td>200 Bags</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="container exercise-4">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Planes</th>
+                        <th>Basic</th>
+                        <th>Medium</th>
+                        <th>Premium</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="glyphicon glyphicon-ok white"></span> Lorem</td>
+                        <td>Element</td>
+                        <td>Element</td>
+                        <td>Element</td>
+                    </tr>      
+                    <tr class="table-secondary">
+                        <td><span class="glyphicon glyphicon-ok white"></span> Lorem</td>
+                        <td>Element</td>
+                        <td>Element</td>
+                        <td>Element</td>
+                    </tr>
+                    <tr>
+                        <td><span class="glyphicon glyphicon-ok white"></span> Lorem</td>
+                        <td>Element</td>
+                        <td>Element</td>
+                        <td>Element</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button type="button" class="btn btn btn-success">Buy</button></td>
+                        <td><button type="button" class="btn btn btn-success">Buy</button></td>
+                        <td><button type="button" class="btn btn btn-success">Buy</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="container exercise-5">
+            <div id="menu_area" class="menu-area">
+                <div class="container">
+                    <div class="row">
+                        <nav class="navbar navbar-light navbar-expand-lg mainmenu">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="active"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> &nbsp; HOME <span class="sr-only">(current)</span></a></li>
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> MENUS</a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a href="#">Menu 2</a></li>
+                                            <li class="dropdown">
+                                                <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu 1</a>
+                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                    <li><a href="#">Menu 1.1</a></li>
+                                                    <li><a href="#">Menu 1.2</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> &nbsp;SETTINGS</a></li>
+                                    <li><a href="#"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> &nbsp;CONTACT</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="container exercise-6">
+            <div id="menu_area_1" class="menu-area-1">
+                <div class="container">
+                    <div class="row">
+                        <nav class="navbar navbar-light navbar-expand-lg mainmenu">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="active"><a href="#"> HOME <span class="sr-only">(current)</span></a></li>
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SERVICES</a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a href="#">Web Design</a></li>
+                                            <li><a href="#">Web Development</a></li>
+                                            <li><a href="#">Web Hosting</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">ABOUT</a></li>
+                                    <li><a href="#">BLOG</a></li>
+                                    <li><a href="#">CONTACT</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container exercise-7">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td colspan="2" class="row-num">Row Number : 1</td>
+                    </tr>      
+                    <tr>
+                        <td class="left-side">Product Name</td>
+                        <td class="right-side">Wheat</td>
+                    </tr>
+                    <tr>
+                        <td class="left-side">Quality</td>
+                        <td class="right-side">Good</td>
+                    </tr>
+                    <tr>
+                        <td class="left-side">Quantity</td>
+                        <td class="right-side">200 Bags</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="row-num">Row Number : 2</td>
+                    </tr>      
+                    <tr>
+                        <td class="left-side">Product Name</td>
+                        <td class="right-side">Rice</td>
+                    </tr>
+                    <tr>
+                        <td class="left-side"> Quality</td>
+                        <td class="right-side">Good</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
